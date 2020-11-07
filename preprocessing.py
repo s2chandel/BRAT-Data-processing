@@ -62,8 +62,8 @@ class Brat:
 if __name__ == '__main__':
 
     config = {
-        "files_path": '/Users/shubhamchandel/Desktop/Multi-Label-Events/events_annotation/bratannotationfiles/',
-        "output":'/Users/shubhamchandel/Desktop/Multi-Label-Events/events_annotation/'
+        "files_path": '/ann/txt/files/input/path/',
+        "output":'/processed/dump/output/path/'
     }
     brat = Brat(config)
     output = brat.preprocess_sentifm(config)
